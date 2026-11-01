@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
-<meta name="description" content="Всеволод Соколовский, junior developer / game designer. Игры на Unity и Godot, приложения на Kotlin и Rust, концепт-арт и музыка. Студент РГУ им. А. Н. Косыгина.">
+<meta name="description" content="Всеволод Соколовский, разработчик / геймдизайнер. Игры на Unity и Godot, приложения на Kotlin и Rust, концепт-арт и музыка. Студент РГУ им. А. Н. Косыгина.">
 <title>Всеволод Соколовский · Резюме</title>
 <meta property="og:type" content="profile">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:title" content="Всеволод Соколовский, junior developer / game designer">
+<meta property="og:title" content="Всеволод Соколовский, разработчик / геймдизайнер">
 <meta property="og:description" content="Игры на Unity и Godot, приложения на Kotlin и Rust. Финалист ЛЦТ-2026.">
 <meta property="og:url" content="https://vsvsokol.github.io/resume/">
 <!-- путь полный: относительный Telegram и ВК не берут -->
 <meta property="og:image" content="https://vsvsokol.github.io/resume/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Ключевой арт ЕВКЛИДЫ: персонаж в синем колпаке несёт блок по лугу">
+<meta property="og:image:alt" content="Ключевая графика ЕВКЛИДЫ: персонаж в синем колпаке несёт блок по лугу">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
@@ -63,7 +63,7 @@
     --accent: #0072b5;
     --sea: #00a6c8;
     --secondary: #2b4756;
-    --dot: rgba(0, 166, 200, 0.5);
+    --dot: rgba(0, 166, 200, 0.28);
     /* один размер для всех мелких подписей */
     --small: 14px;
     /* запасные шрифты с кириллицей на случай, если fonts/ не загрузился */
@@ -148,7 +148,7 @@
   }
   .contacts .note { margin-right: 8px; }
 
-  section { padding: 48px 0; }
+  section { padding: 32px 0; }
   /* линия после заголовка по его середине */
   h2 {
     display: flex; align-items: center; gap: 16px; margin: 0 0 24px;
@@ -222,7 +222,7 @@
 
   @media (max-width: 520px) {
     /* на телефоне треугольник ложится прямо под текст hero, поэтому точки бледнее */
-    :root { --dot: rgba(0, 166, 200, 0.3); }
+    :root { --dot: rgba(0, 166, 200, 0.18); }
     .hero { padding: 32px 0; }
     .stack div { grid-template-columns: 1fr; }
     .strip .split { flex-direction: column; }
@@ -237,7 +237,7 @@
 <div class="wrap">
 
   <header class="top">
-    <div>Всеволод Соколовский · <span class="nowrap">junior developer / game designer</span></div>
+    <div>Всеволод Соколовский · <span class="nowrap">разработчик / геймдизайнер</span></div>
   </header>
 
   <div class="dotted">
@@ -252,9 +252,9 @@
     </div>
     <p class="who"><span class="note">разработка и геймдизайн</span><span class="note badge">English: C1</span></p>
     <p class="lead">
-      Студент 3 курса ИСиТ. Проектирую архитектуру и&nbsp;интерфейсы, в&nbsp;команде ставлю задачи и&nbsp;принимаю результат.
-      В&nbsp;играх придумываю механики и&nbsp;персонажей, подбираю визуальный стиль и&nbsp;рисую концепты.
-      Пять лет пишу электронную музыку: IDM, DnB, ambient.
+      Студент 3 курса ИСиТ. Руковожу командой, проектирую архитектуру и&nbsp;интерфейсы.
+      В&nbsp;играх придумываю механики и&nbsp;персонажей, подбираю визуальный стиль и&nbsp;рисую концепт-арты персонажей.
+      Пять лет пишу электронную музыку DnB, эмбиент.
     </p>
     <div class="contacts">
       <a href="https://t.me/vsvsokol"><span class="note">telegram</span>@vsvsokol</a>
@@ -269,7 +269,7 @@
     <dl class="stack">
       <div><dt class="note">языки</dt><dd>C#&nbsp;· Rust&nbsp;· Kotlin&nbsp;· GDScript</dd></div>
       <div><dt class="note">движки</dt><dd>Unity 6&nbsp;· Godot 4&nbsp;· FMOD&nbsp;· Jolt Physics</dd></div>
-      <div><dt class="note">арт и звук</dt><dd>Krita&nbsp;· Blender (моделирование, анимация)&nbsp;· Ableton Live</dd></div>
+      <div><dt class="note">графика и звук</dt><dd>Krita&nbsp;· Blender (моделирование, анимация)&nbsp;· Ableton Live</dd></div>
       <div><dt class="note">инструменты</dt><dd>Git&nbsp;· GitHub Actions (CI)&nbsp;· Gradle</dd></div>
       <div><dt class="note">инфраструктура</dt><dd>Linux (Ubuntu, Debian)&nbsp;· Docker Compose&nbsp;· SSH&nbsp;· Tailscale</dd></div>
     </dl>
@@ -293,7 +293,7 @@
       </div>
 
       <div class="card">
-        <div class="shot video"><video src="img/euklida-preview.mp4" poster="img/euklida-poster.jpg" width="1280" height="720" controls muted playsinline preload="none" aria-label="ЕВКЛИДА: геймплей песочницы, 51 секунда, на постере ключевой арт"></video></div>
+        <div class="shot video"><video src="img/euklida-preview.mp4" poster="img/euklida-poster.jpg" width="1280" height="720" controls muted playsinline preload="none" aria-label="ЕВКЛИДА: геймплей песочницы, 51 секунда, на постере ключевая графика"></video></div>
         <div class="body">
           <h3>ЕВКЛИДА</h3>
           <p>Музыкальная 3D-песочница</p>
@@ -325,34 +325,34 @@
   </section>
 
   <section id="art">
-    <h2>Арт и музыка</h2>
+    <h2>Графика и музыка</h2>
     <div class="rows">
       <article class="card">
         <div class="shot strip">
           <div class="row split">
-            <a href="art/skate-1.jpg" style="--r: 1.077"><img src="img/skate-1.jpg" width="366" height="340" loading="lazy" alt="Концепт жёлтого скейтера со скейтом у завода"></a>
-            <a href="art/skate-turn-1.jpg" style="--r: 2.193"><img src="img/skate-turn-1.jpg" width="900" height="410" loading="lazy" alt="Turnaround скейтера в жёлто-сером комбинезоне с усиками, пять ракурсов"></a>
+            <a href="art/skate-1.jpg" target="_blank" rel="noopener" style="--r: 1.077"><img src="img/skate-1.jpg" width="366" height="340" loading="lazy" alt="Концепт жёлтого скейтера со скейтом у завода"></a>
+            <a href="art/skate-turn-1.jpg" target="_blank" rel="noopener" style="--r: 2.193"><img src="img/skate-turn-1.jpg" width="900" height="410" loading="lazy" alt="Turnaround скейтера в жёлто-сером комбинезоне с усиками, пять ракурсов"></a>
           </div>
           <div class="row split">
-            <a href="art/skate-2.jpg" style="--r: 1.023"><img src="img/skate-2.jpg" width="348" height="340" loading="lazy" alt="Лист набросков белого скейтера: наушники, ремень с баллонами, палитра"></a>
-            <a href="art/skate-turn-2.jpg" style="--r: 2.326"><img src="img/skate-turn-2.jpg" width="900" height="387" loading="lazy" alt="Turnaround скейтера в белом костюме и сине-чёрном шлеме, пять ракурсов"></a>
+            <a href="art/skate-2.jpg" target="_blank" rel="noopener" style="--r: 1.023"><img src="img/skate-2.jpg" width="348" height="340" loading="lazy" alt="Лист набросков белого скейтера: наушники, ремень с баллонами, палитра"></a>
+            <a href="art/skate-turn-2.jpg" target="_blank" rel="noopener" style="--r: 2.326"><img src="img/skate-turn-2.jpg" width="900" height="387" loading="lazy" alt="Turnaround скейтера в белом костюме и сине-чёрном шлеме, пять ракурсов"></a>
           </div>
           <div class="row">
-            <a href="art/skate-3.jpg" style="--r: 1.424"><img src="img/skate-3.jpg" width="484" height="340" loading="lazy" alt="Концепт скейтера в зелёном спортивном костюме, пометка про плеер или GPS-трекер"></a>
-            <a href="art/skate-4.jpg" style="--r: 1.276"><img src="img/skate-4.jpg" width="434" height="340" loading="lazy" alt="Портрет рыжего персонажа в шапке и зелёной куртке"></a>
+            <a href="art/skate-3.jpg" target="_blank" rel="noopener" style="--r: 1.424"><img src="img/skate-3.jpg" width="484" height="340" loading="lazy" alt="Концепт скейтера в зелёном спортивном костюме, пометка про плеер или GPS-трекер"></a>
+            <a href="art/skate-4.jpg" target="_blank" rel="noopener" style="--r: 1.276"><img src="img/skate-4.jpg" width="434" height="340" loading="lazy" alt="Портрет рыжего персонажа в шапке и зелёной куртке"></a>
           </div>
         </div>
         <div class="body">
           <h3>COLORUSH</h3>
           <p>2D-экшен-платформер</p>
-          <p class="note">AXON STUDIO · визуальный стиль · дизайн персонажей · turnaround · музыка</p>
-          <p class="result">Подбирал визуальный стиль игры, рисовал концепты героев и turnaround в пяти ракурсах. На набросках подписано снаряжение: наушники, ремень с баллонами, плеер или GPS-трекер. Написал музыку к игре: главное меню, хаб, два уровня и бой с боссом</p>
+          <p class="note">AXON STUDIO · визуальный стиль · дизайн персонажей · музыка</p>
+          <p class="result">Подбирал визуальный стиль игры, рисовал концепт-арты персонажей и их turnaround. Писал звуковое и музыкальное сопровождение игры: главное меню, хаб, два уровня и бой с боссом</p>
           <div class="tracks">
-            <div><span class="note">главное меню</span><audio controls preload="metadata" src="audio/colorush-menu.mp3"></audio></div>
-            <div><span class="note">хаб</span><audio controls preload="metadata" src="audio/colorush-hub.mp3"></audio></div>
-            <div><span class="note">уровень 1</span><audio controls preload="metadata" src="audio/colorush-level1.mp3"></audio></div>
-            <div><span class="note">босс</span><audio controls preload="metadata" src="audio/colorush-boss.mp3"></audio></div>
-            <div><span class="note">уровень 2</span><audio controls preload="metadata" src="audio/colorush-level2.mp3"></audio></div>
+            <div><span class="note">главное меню</span><audio controls controlsList="nodownload" preload="metadata" src="audio/colorush-menu.mp3"></audio></div>
+            <div><span class="note">хаб</span><audio controls controlsList="nodownload" preload="metadata" src="audio/colorush-hub.mp3"></audio></div>
+            <div><span class="note">уровень 1</span><audio controls controlsList="nodownload" preload="metadata" src="audio/colorush-level1.mp3"></audio></div>
+            <div><span class="note">босс</span><audio controls controlsList="nodownload" preload="metadata" src="audio/colorush-boss.mp3"></audio></div>
+            <div><span class="note">уровень 2</span><audio controls controlsList="nodownload" preload="metadata" src="audio/colorush-level2.mp3"></audio></div>
           </div>
         </div>
       </article>
@@ -370,8 +370,8 @@
       </article>
       <article class="card">
         <div class="shot scans">
-          <a href="diplomas/kreativnoe-pokolenie.jpg"><img src="img/dip-kreativnoe-pokolenie.jpg" width="420" height="594" loading="lazy" alt="Диплом победителя «Креативное Поколение»"></a>
-          <a href="diplomas/hse-nominaciya.jpg"><img src="img/dip-hse-nominaciya.jpg" width="420" height="297" loading="lazy" alt="Диплом ВШЭ: номинация «Дизайн-код цифрового наставника» конкурса «Креативное Поколение»"></a>
+          <a href="diplomas/kreativnoe-pokolenie.jpg" target="_blank" rel="noopener"><img src="img/dip-kreativnoe-pokolenie.jpg" width="420" height="594" loading="lazy" alt="Диплом победителя «Креативное Поколение»"></a>
+          <a href="diplomas/hse-nominaciya.jpg" target="_blank" rel="noopener"><img src="img/dip-hse-nominaciya.jpg" width="420" height="297" loading="lazy" alt="Диплом ВШЭ: номинация «Дизайн-код цифрового наставника» конкурса «Креативное Поколение»"></a>
         </div>
         <div class="body">
           <h3>«Креативное Поколение» (2025)</h3>
@@ -379,10 +379,13 @@
         </div>
       </article>
       <article class="card">
-        <div class="shot scans"><a href="diplomas/hakaton-2024.jpg"><img src="img/dip-hakaton-2024.jpg" width="420" height="562" loading="lazy" alt="Диплом хакатона «Обучение служением»"></a></div>
+        <div class="shot scans">
+          <a href="diplomas/hakaton-2024.jpg" target="_blank" rel="noopener"><img src="img/dip-hakaton-2024.jpg" width="420" height="562" loading="lazy" alt="Диплом победителя хакатона «Обучение служением», команда CICADA 424"></a>
+          <a href="diplomas/hakaton-2024-uchastie.jpg" target="_blank" rel="noopener"><img src="img/dip-hakaton-2024-uchastie.jpg" width="422" height="597" loading="lazy" alt="Личный диплом за участие в хакатоне «Обучение служением»"></a>
+        </div>
         <div class="body">
           <h3>Хакатон «Обучение служением» (2024)</h3>
-          <p>Победа в треке «Создание обучающего контента», команда CICADA 424: анимационный фильм для студентов-художников о том, как рисовать формы предметов.</p>
+          <p>Победа в треке «Создание обучающего контента»: анимационный фильм для студентов-художников о том, как рисовать формы предметов.</p>
         </div>
       </article>
     </div>
@@ -400,7 +403,7 @@
 
 
   <footer class="note">
-    <span>Всеволод Соколовский · <span class="nowrap">junior developer / game designer</span></span>
+    <span>Всеволод Соколовский · <span class="nowrap">разработчик / геймдизайнер</span></span>
     <a href="#">наверх</a>
   </footer>
 </div>
